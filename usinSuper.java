@@ -25,3 +25,14 @@ class setA {
         System.out.println("outpu of noic 1 and 2" +name +uid);
     }
 }
+class setB extends setA {
+    setB() {
+        // super();
+        // super.Afun();
+        // super.Ashow();
+    }
+    public static void main(String[] args) {
+        // setB sb = new setB();
+        // sb.Afun();
+    }
+}
