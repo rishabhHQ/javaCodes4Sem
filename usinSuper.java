@@ -26,6 +26,11 @@ class setA {
     }
 }
 class setB extends setA {
+    // setB() {
+    //     this() {
+    //         // noic 
+    //     }
+    // }
     setB() {
         // super();
         // super.Afun();
@@ -36,3 +41,11 @@ class setB extends setA {
         // sb.Afun();
     }
 }
+
+// as far as I understand:
+// "this" will call all the parameters/properties/objects/methods(functions) inside the class "this" is used
+// and whereas: "super" will only work in inheritance and will call all the parameters/properties/objects/methods(functions) inside 
+// parent as well as child class
+
+// for example in this case: when we call "this" it will call all methods(functions) of classB and inside which
+// also "super" exists which will call all parameters/properties/objects/methods(functions) of parent class
