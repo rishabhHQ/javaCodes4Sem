@@ -20,3 +20,7 @@ class classC implements classA,classB {
         c.show();
     }
 }
+
+// this is a way to implement "muntiple inheritance" in java using "interface".
+// implementing "interface" in java is similar to using/impleting abstraction.
+// i.e hiding all implemental details and showing only important result part
