@@ -10,4 +10,13 @@ class classC implements classA,classB {
     public void show() {
         System.out.println("classA");
     }
+    public void display() {
+        System.out.println("classB");
+    }
+
+    public static void main(String[] args) {
+        classC c = new classC();
+        c.display();
+        c.show();
+    }
 }
