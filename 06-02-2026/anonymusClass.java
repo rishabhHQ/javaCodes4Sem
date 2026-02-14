@@ -10,6 +10,7 @@ class innerA {
         innerA inA = new innerA();
         inA.display();
         // rest code I dont have if someone can complete it please do
+        // or you can edit whole code. Just make shure it comes under Anonymous nested class. 
     }
 }
 
