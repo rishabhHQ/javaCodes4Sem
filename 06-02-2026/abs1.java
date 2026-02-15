@@ -12,3 +12,7 @@ class xyz extends abst {
         x.show();
     }
 }
+
+// in notebook i have written kuch gadbad hai
+// but as far as my knowledge till now (15/02/2026) its fine code
+// if any error then do lemme know thanks.
