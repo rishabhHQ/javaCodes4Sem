@@ -8,9 +8,9 @@ class exc {
             System.out.println("Divide: " +(a/b));
             FileReader fr = new FileReader("noix.txt");     // noix.txt dosnt exists therefore error will come
         }
-        catch (Exception e) {
-            System.out.println("Error: " +e);       // this is default incse we dont know exact type of error
-        }
+        // catch (Exception e) {
+        //     System.out.println("Error: " +e);       // this is default incse we dont know exact type of error
+        // }
         catch (FileNotFoundException e1) {      // error/warning in VS code sayin it is already catched by Exception
             System.out.println("Error: " +e1);
         }
@@ -19,3 +19,5 @@ class exc {
         }
     }
 }
+
+// one try can have muntiple catch
