@@ -1,18 +1,20 @@
-class innerA {
+class InnerA {
+
     void display() {
-        class innerB {
-            void show() {
-                System.out.println("inner classB");
+
+        // Anonymous nested class
+        Runnable obj = new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("Anonymous Nested Class");
             }
-        }
+        };
+
+        obj.run();
     }
+
     public static void main(String[] args) {
-        innerA inA = new innerA();
+        InnerA inA = new InnerA();
         inA.display();
-        // rest code I dont have if someone can complete it please do
-        // or you can edit whole code. Just make shure it comes under Anonymous nested class. 
     }
 }
-
-// in this the inner class is inside a method(function) ..rest i can only say after seeing complete code
-// which I dont have at the moment 
