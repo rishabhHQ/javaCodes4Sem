@@ -1,0 +1,22 @@
+
+
+Student Number: 1
+
+Name: r1
+UID: 123
+Email: noic1@ok.com
+Fav Subject: java
+
+Student Number: 2
+
+Name: r2
+UID: 1234
+Email: noic2@ok.com
+Fav Subject: java
+
+Student Number: 3
+
+Name: r3
+UID: 12345
+Email: noic3@ok.com
+Fav Subject: java
