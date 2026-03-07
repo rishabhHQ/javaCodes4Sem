@@ -7,12 +7,18 @@ class ipstream1 {
         throws IOException {
 
             FileInputStream fis = new FileInputStream("ips1.txt");
-            int i;
-            // sometin is wrin in below code
-            while(i = fis.read()) {
-                System.out.print((char)i);
-            }
 
-         }
+            // int i;
+
+            // // sometin is wrin in below code (.................................)
+
+            // while(i = fis.read()) {
+            //     System.out.print((char)i);
+            // }
+
+            fis.close();
+            
+
+        }
     
 }
